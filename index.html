@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AKAI Frontend Task</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+	<script type="text/javascript" src="js/validation.js"></script>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body>
+    <section id="task-frontend" class="container">
+        <h1 class="basic-title">Dołącz do nas!</h1>
+        <hr class="form-line">
+        <form method="POST">
+            <div class="form-group">
+                <input type="text" id="first-name" class="input-field" placeholder="Imię"/>
+            </div>
+            <div class="form-group">
+                <input type="text" id="last-name" class="input-field" placeholder="Nazwisko"/>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" class="input-field" placeholder="Email"/>
+            </div>
+            <div class="form-group section-group">
+                <span id="sekcja">Sekcja</span><br/>
+                <div class="section-checkbox">
+                    <input type="checkbox" id="frontend-checkbox" name="section" value="frontend">
+                    <label for="frontend-checkbox">Frontend</label>
+                </div>
+                <div class="section-checkbox">
+                    <input type="checkbox" id="backend-checkbox" name="section" value="backend">
+                    <label for="backend-checkbox">Backend</label>
+                </div>
+                <div class="section-checkbox">
+                    <input type="checkbox" id="mobile-checkbox" name="section" value="mobile">
+                    <label for="mobile-checkbox">Mobile</label>
+                </div>
+                <div class="section-checkbox">
+                    <input type="checkbox" id="graphics-checkbox" name="section" value="graphics">
+                    <label for="graphics-checkbox">Grafika</label>
+                </div>
+            </div>
+            <input type="submit" value="Prześlij" class="submit-button">
+        </form>
+        <hr class="form-line">
+    </section>
+</body>
+</html>
